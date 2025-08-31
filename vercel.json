@@ -1,0 +1,32 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/products/:id",
+      "destination": "/api/products/[id].js"
+    },
+    {
+      "source": "/api/auth/register",
+      "destination": "/api/auth/register.js"
+    },
+    {
+      "source": "/api/auth/login",
+      "destination": "/api/auth/login.js"
+    },
+    {
+      "source": "/api/products",
+      "destination": "/api/products/index.js"
+    },
+    {
+      "source": "/api/users/cart",
+      "destination": "/api/users/cart.js"
+    },
+    {
+      "source": "/api/users/wishlist",
+      "destination": "/api/users/wishlist.js"
+    },
+    {
+      "source": "/api/users/orders",
+      "destination": "/api/users/orders.js"
+    }
+  ]
+}
